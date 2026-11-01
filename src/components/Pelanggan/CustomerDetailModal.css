@@ -1,0 +1,28 @@
+/* CustomerDetailModal.css */
+.modal-content--lg { max-width: 700px; }
+.modal-content--sm { max-width: 450px; }
+.status-badge { display: inline-block; padding: 4px 10px; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600; margin-top: 8px; }
+.status-active { background: #D1FAE5; color: #065F46; }
+.status-inactive { background: #F1F5F9; color: #475569; }
+.detail-section { margin-bottom: var(--spacing-lg); }
+.section-title { font-size: 0.875rem; font-weight: 600; color: var(--color-text); margin-bottom: var(--spacing-sm); text-transform: uppercase; letter-spacing: 0.05em; }
+.detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-md); }
+.detail-item { display: flex; flex-direction: column; gap: 4px; }
+.detail-item.full-width { grid-column: 1 / -1; }
+.detail-label { font-size: 0.75rem; color: var(--color-text-muted); }
+.detail-value { font-size: 0.875rem; color: var(--color-text); font-weight: 500; }
+.stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--spacing-md); background: var(--color-bg); padding: var(--spacing-md); border-radius: var(--radius-md); }
+.mini-stat { display: flex; flex-direction: column; gap: 4px; }
+.mini-stat-value { font-size: 1rem; font-weight: 700; color: var(--color-text); }
+.mini-stat-label { font-size: 0.75rem; color: var(--color-text-muted); }
+.latest-order-card { display: flex; justify-content: space-between; align-items: center; padding: var(--spacing-md); border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-bg); }
+.latest-order-info { display: flex; align-items: center; gap: var(--spacing-md); font-size: 0.875rem; }
+.order-id { font-weight: 600; color: var(--color-primary); }
+.order-date, .order-service { color: var(--color-text-secondary); }
+.order-amount { font-weight: 600; }
+.btn-link { background: none; border: none; color: var(--color-primary); font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+.btn-link:hover { text-decoration: underline; }
+.empty-state { text-align: center; padding: var(--spacing-xl); color: var(--color-text-muted); font-size: 0.875rem; }
+.badge { padding: 4px 10px; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 500; }
+.badge--success { background: #D1FAE5; color: #065F46; }
+.badge--info { background: #DBEAFE; color: #1E40AF; }
